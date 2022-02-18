@@ -1,0 +1,133 @@
+body{
+  background-color: White;
+  background-color: hsl(217, 54%, 11%);
+}
+
+h3{
+  font-family: 'Outfit', sans-serif;
+  padding-top: 340px;
+  margin-left: 20px;
+  color: grey;
+  color: hsl(0, 0%, 100%);
+}
+p{
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color: blue;
+  color: hsl(215, 51%, 70%);
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+hr{
+
+  border-bottom: none;
+  color: blue;
+  color: hsl(215, 51%, 70%);
+  margin: 0 20px;
+}
+
+a:hover{
+  color: cyan;
+  color: hsl(178, 100%, 50%);
+}
+
+img:hover{
+  color: cyan;
+  color: hsl(178, 100%, 50%);
+}
+
+.card{
+  width: 340px;
+  height: 580px;
+  margin: 150px auto;
+  position:relative;
+  background-color: #21243D;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 5%;
+}
+
+.main-icon{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.overlay{
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+
+}
+
+.view-icon{
+  position: absolute;
+  top: 40%;
+  left: 42%
+}
+
+.overlay:hover{
+  background-color: cyan;
+  opacity: 0.5;
+}
+
+.time{
+  position: absolute;
+  right: 10px;
+  bottom: 100px;
+  margin-right: 20px;
+}
+.clock-icon{
+  position: absolute;
+  right: 115px;
+  bottom: 100px;
+}
+
+.eth-icon{
+  position: absolute;
+  bottom: 100px;
+}
+
+.eth{
+  position: absolute;
+  left: 38px;
+  bottom: 100px;
+  color: cyan;
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+}
+
+.user-icon{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  bottom: 35px;
+  left:20px;
+}
+
+.credit{
+  padding-left: 50px;
+  position: relative;
+  top: 10px;
+}
+
+.name{
+  color: white;
+  color: hsl(0, 0%, 100%);
+}
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a {
+    color: white;
+    color: hsl(228, 45%, 44%); }
